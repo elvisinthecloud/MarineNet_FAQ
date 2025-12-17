@@ -1,0 +1,554 @@
+{
+  "nodes": [
+    {
+      "id": "root",
+      "prompt": "What do you need help with?",
+      "options": [
+        {
+          "label": "ACCOUNT MANAGEMENT",
+          "nextNodeId": "account-management-menu"
+        },
+        {
+          "label": "QUESTIONMARK",
+          "nextNodeId": "questionmark-menu"
+        },
+        {
+          "label": "SELF STUDY COURSEWARE DEVELOPMENT",
+          "nextNodeId": "self-study-courseware-development-menu"
+        },
+        {
+          "label": "ADOBE CONNECT",
+          "nextNodeId": "adobe-connect-menu"
+        },
+        {
+          "label": "CONTACT INFORMATION",
+          "nextNodeId": "contact-information-menu"
+        },
+        {
+          "label": "COURSES/CURRICULA",
+          "nextNodeId": "courses-curricula-menu"
+        },
+        {
+          "label": "CREATE OR REQUEST ACCOUNT",
+          "nextNodeId": "create-or-request-account-menu"
+        },
+        {
+          "label": "ECDEP",
+          "nextNodeId": "ecdep-menu"
+        },
+        {
+          "label": "GROUPS",
+          "nextNodeId": "groups-menu"
+        },
+        {
+          "label": "LIBRARY",
+          "nextNodeId": "library-menu"
+        },
+        {
+          "label": "LOG IN",
+          "nextNodeId": "log-in-menu"
+        },
+        {
+          "label": "MARINENET VIDEO SERVICES (MVS)",
+          "nextNodeId": "marinenet-video-services-mvs-menu"
+        },
+        {
+          "label": "COURSE CATALOG",
+          "nextNodeId": "course-catalog-menu"
+        },
+        {
+          "label": "MISCELLANEOUS",
+          "nextNodeId": "miscellaneous-menu"
+        },
+        {
+          "label": "MOODLE",
+          "nextNodeId": "moodle-menu"
+        },
+        {
+          "label": "MODIFY SCREEN DISPLAY",
+          "nextNodeId": "modify-screen-display-menu"
+        },
+        {
+          "label": "NOTIFICATIONS",
+          "nextNodeId": "notifications-menu"
+        },
+        {
+          "label": "PROCTORING",
+          "nextNodeId": "proctoring-menu"
+        },
+        {
+          "label": "PROFILE",
+          "nextNodeId": "profile-menu"
+        },
+        {
+          "label": "REGIONS",
+          "nextNodeId": "regions-menu"
+        },
+        {
+          "label": "REQUESTS",
+          "nextNodeId": "requests-menu"
+        },
+        {
+          "label": "TESTING",
+          "nextNodeId": "testing-menu"
+        }
+      ]
+    },
+    {
+      "id": "account-management-menu",
+      "prompt": "ACCOUNT MANAGEMENT topics:",
+      "options": [
+        {
+          "label": "How do I change my Security Question & Answer (Q/A)?",
+          "faqId": "how-do-i-change-my-security-question-answer-q-a"
+        },
+        {
+          "label": "What is the password policy for MarineNet?",
+          "faqId": "what-is-the-password-policy-for-marinenet"
+        },
+        {
+          "label": "What if my account was disabled due to inactivity?",
+          "faqId": "what-if-my-account-was-disabled-due-to-inactivity"
+        },
+        {
+          "label": "What if I do not remember my username or password?",
+          "faqId": "what-if-i-do-not-remember-my-username-or-password"
+        },
+        {
+          "label": "Can I change my Security Question & Answer (Q/A) myself?",
+          "faqId": "can-i-change-my-security-question-answer-q-a-myself"
+        },
+        {
+          "label": "How do I change my password?",
+          "faqId": "how-do-i-change-my-password"
+        },
+        {
+          "label": "How do I unlock my account?",
+          "faqId": "how-do-i-unlock-my-account"
+        }
+      ]
+    },
+    {
+      "id": "questionmark-menu",
+      "prompt": "QUESTIONMARK topics:",
+      "options": [
+        {
+          "label": "How do I create an assessment in Questionmark OnPrem?",
+          "faqId": "how-do-i-create-an-assessment-in-questionmark-onprem"
+        }
+      ]
+    },
+    {
+      "id": "self-study-courseware-development-menu",
+      "prompt": "SELF STUDY COURSEWARE DEVELOPMENT topics:",
+      "options": [
+        {
+          "label": "I need some assistance with submitting a Self-Paced Content development application for a course to be created. Where can I go for assistance?",
+          "faqId": "i-need-some-assistance-with-submitting-a-self-paced-content-development-application-for-a-course-to-be-created-where-can-i-go-for-assistance"
+        }
+      ]
+    },
+    {
+      "id": "adobe-connect-menu",
+      "prompt": "ADOBE CONNECT topics:",
+      "options": [
+        {
+          "label": "Who needs an account?",
+          "faqId": "who-needs-an-account"
+        },
+        {
+          "label": "How do I request a host account?",
+          "faqId": "how-do-i-request-a-host-account"
+        },
+        {
+          "label": "I have a Host account; how do I access my account?",
+          "faqId": "i-have-a-host-account-how-do-i-access-my-account"
+        },
+        {
+          "label": "Do students or participants need accounts?",
+          "faqId": "do-students-or-participants-need-accounts"
+        },
+        {
+          "label": "How do I set up a meeting room?",
+          "faqId": "how-do-i-set-up-a-meeting-room"
+        },
+        {
+          "label": "How many people can be in a meeting room at one time?",
+          "faqId": "how-many-people-can-be-in-a-meeting-room-at-one-time"
+        },
+        {
+          "label": "What is the difference between a seminar room and a meeting room?",
+          "faqId": "what-is-the-difference-between-a-seminar-room-and-a-meeting-room"
+        },
+        {
+          "label": "How can I request a seminar room?",
+          "faqId": "how-can-i-request-a-seminar-room"
+        }
+      ]
+    },
+    {
+      "id": "contact-information-menu",
+      "prompt": "CONTACT INFORMATION topics:",
+      "options": [
+        {
+          "label": "How do I put in a Support Request to the MarineNet Help Desk?",
+          "faqId": "how-do-i-put-in-a-support-request-to-the-marinenet-help-desk"
+        },
+        {
+          "label": "How do I call the MarineNet Help Desk?",
+          "faqId": "how-do-i-call-the-marinenet-help-desk"
+        }
+      ]
+    },
+    {
+      "id": "courses-curricula-menu",
+      "prompt": "COURSES/CURRICULA topics:",
+      "options": [
+        {
+          "label": "How do I launch a course or curriculum?",
+          "faqId": "how-do-i-launch-a-course-or-curriculum"
+        },
+        {
+          "label": "How do I enroll in an Instructor-Led Moodle Course?",
+          "faqId": "how-do-i-enroll-in-an-instructor-led-moodle-course"
+        },
+        {
+          "label": "How do I request an official transcript?",
+          "faqId": "how-do-i-request-an-official-transcript"
+        },
+        {
+          "label": "How do I enroll in a course?",
+          "faqId": "how-do-i-enroll-in-a-course"
+        },
+        {
+          "label": "How do I request enrollment in a course that says I am not eligible?",
+          "faqId": "how-do-i-request-enrollment-in-a-course-that-says-i-am-not-eligible"
+        },
+        {
+          "label": "How do I view or download my unofficial transcript?",
+          "faqId": "how-do-i-view-or-download-my-unofficial-transcript"
+        },
+        {
+          "label": "How do I view my certificate or diploma?",
+          "faqId": "how-do-i-view-my-certificate-or-diploma"
+        },
+        {
+          "label": "How do I disenroll from a course?",
+          "faqId": "how-do-i-disenroll-from-a-course"
+        }
+      ]
+    },
+    {
+      "id": "create-or-request-account-menu",
+      "prompt": "CREATE OR REQUEST ACCOUNT topics:",
+      "options": [
+        {
+          "label": "How do I create a MarineNet account?",
+          "faqId": "how-do-i-create-a-marinenet-account"
+        },
+        {
+          "label": "I tried to create an account for myself but kept getting a message saying my account already exists. What do I do?",
+          "faqId": "i-tried-to-create-an-account-for-myself-but-kept-getting-a-message-saying-my-account-already-exists-what-do-i-do"
+        }
+      ]
+    },
+    {
+      "id": "ecdep-menu",
+      "prompt": "ECDEP topics:",
+      "options": [
+        {
+          "label": "How do I get Command approval into ECDEP seminar?",
+          "faqId": "how-do-i-get-command-approval-into-ecdep-seminar"
+        },
+        {
+          "label": "How do I request enrollment for ECDEP seminar?",
+          "faqId": "how-do-i-request-enrollment-for-ecdep-seminar"
+        }
+      ]
+    },
+    {
+      "id": "groups-menu",
+      "prompt": "GROUPS topics:",
+      "options": [
+        {
+          "label": "How do I see a list of the Groups I belong to?",
+          "faqId": "how-do-i-see-a-list-of-the-groups-i-belong-to"
+        }
+      ]
+    },
+    {
+      "id": "library-menu",
+      "prompt": "LIBRARY topics:",
+      "options": [
+        {
+          "label": "How do I download a CUI document?",
+          "faqId": "how-do-i-download-a-cui-document"
+        }
+      ]
+    },
+    {
+      "id": "log-in-menu",
+      "prompt": "LOG IN topics:",
+      "options": [
+        {
+          "label": "How do I log into MarineNet?",
+          "faqId": "how-do-i-log-into-marinenet"
+        }
+      ]
+    },
+    {
+      "id": "marinenet-video-services-mvs-menu",
+      "prompt": "MARINENET VIDEO SERVICES (MVS) topics:",
+      "options": [
+        {
+          "label": "Can I upload other video captured by other people/organizations?",
+          "faqId": "can-i-upload-other-video-captured-by-other-people-organizations"
+        },
+        {
+          "label": "Is there a limit to the number of videos that can be uploaded per person?",
+          "faqId": "is-there-a-limit-to-the-number-of-videos-that-can-be-uploaded-per-person"
+        },
+        {
+          "label": "Who will see my feedback?",
+          "faqId": "who-will-see-my-feedback"
+        },
+        {
+          "label": "Will my video be visible immediately after upload?",
+          "faqId": "will-my-video-be-visible-immediately-after-upload"
+        },
+        {
+          "label": "What control of the video do I have following its upload?",
+          "faqId": "what-control-of-the-video-do-i-have-following-its-upload"
+        },
+        {
+          "label": "How long is the review process?",
+          "faqId": "how-long-is-the-review-process"
+        },
+        {
+          "label": "Can video be downloaded?",
+          "faqId": "can-video-be-downloaded"
+        },
+        {
+          "label": "Why might my video be disapproved?",
+          "faqId": "why-might-my-video-be-disapproved"
+        },
+        {
+          "label": "Can I access, view, and upload video from a tablet or smartphone?",
+          "faqId": "can-i-access-view-and-upload-video-from-a-tablet-or-smartphone"
+        },
+        {
+          "label": "Can users provide feedback?",
+          "faqId": "can-users-provide-feedback"
+        },
+        {
+          "label": "Will I be notified upon approval or disapproval?",
+          "faqId": "will-i-be-notified-upon-approval-or-disapproval"
+        },
+        {
+          "label": "Who can upload video?",
+          "faqId": "who-can-upload-video"
+        }
+      ]
+    },
+    {
+      "id": "course-catalog-menu",
+      "prompt": "COURSE CATALOG topics:",
+      "options": [
+        {
+          "label": "How do I view information about a course or curriculum?",
+          "faqId": "how-do-i-view-information-about-a-course-or-curriculum"
+        },
+        {
+          "label": "How do I find Predeployment Training Program (PTP) courses available on MarineNet?",
+          "faqId": "how-do-i-find-predeployment-training-program-ptp-courses-available-on-marinenet"
+        }
+      ]
+    },
+    {
+      "id": "miscellaneous-menu",
+      "prompt": "MISCELLANEOUS topics:",
+      "options": [
+        {
+          "label": "What do I do if images or videos won't load?",
+          "faqId": "what-do-i-do-if-images-or-videos-won-t-load"
+        },
+        {
+          "label": "How can I receive a completion on my transcript for a course I have taken multiple times that does not show as completed?",
+          "faqId": "how-can-i-receive-a-completion-on-my-transcript-for-a-course-i-have-taken-multiple-times-that-does-not-show-as-completed"
+        },
+        {
+          "label": "I'm the MarineNet Training Manager (TM) for my Unit. How do I run a MarineNet Report?",
+          "faqId": "i-m-the-marinenet-training-manager-tm-for-my-unit-how-do-i-run-a-marinenet-report"
+        },
+        {
+          "label": "How do I take a screenshot?",
+          "faqId": "how-do-i-take-a-screenshot"
+        },
+        {
+          "label": "What happens to my old failure on my transcript?",
+          "faqId": "what-happens-to-my-old-failure-on-my-transcript"
+        }
+      ]
+    },
+    {
+      "id": "moodle-menu",
+      "prompt": "MOODLE topics:",
+      "options": [
+        {
+          "label": "Enroll in Instructor-Led Training (Moodle)",
+          "faqId": "enroll-in-instructor-led-training-moodle"
+        },
+        {
+          "label": "I need some assistance with a Moodle course I am creating. Where can I go for assistance?",
+          "faqId": "i-need-some-assistance-with-a-moodle-course-i-am-creating-where-can-i-go-for-assistance"
+        },
+        {
+          "label": "How can I use the Moodle Mobile App?",
+          "faqId": "how-can-i-use-the-moodle-mobile-app"
+        },
+        {
+          "label": "Moodle (Instructor-Led) Notifications",
+          "faqId": "moodle-instructor-led-notifications"
+        },
+        {
+          "label": "Request a Student's Enrollment in Instructor-Led Training (Moodle)",
+          "faqId": "request-a-student-s-enrollment-in-instructor-led-training-moodle"
+        }
+      ]
+    },
+    {
+      "id": "modify-screen-display-menu",
+      "prompt": "MODIFY SCREEN DISPLAY topics:",
+      "options": [
+        {
+          "label": "How can I modify my screen display?",
+          "faqId": "how-can-i-modify-my-screen-display"
+        }
+      ]
+    },
+    {
+      "id": "notifications-menu",
+      "prompt": "NOTIFICATIONS topics:",
+      "options": [
+        {
+          "label": "When do users receive system notifications?",
+          "faqId": "when-do-users-receive-system-notifications"
+        },
+        {
+          "label": "How can I find a system notification I am waiting for?",
+          "faqId": "how-can-i-find-a-system-notification-i-am-waiting-for"
+        }
+      ]
+    },
+    {
+      "id": "proctoring-menu",
+      "prompt": "PROCTORING topics:",
+      "options": [
+        {
+          "label": "How do I find out who my proctor is?",
+          "faqId": "how-do-i-find-out-who-my-proctor-is"
+        },
+        {
+          "label": "How Does a Proctor Request a Remote Proctor Pin?",
+          "faqId": "how-does-a-proctor-request-a-remote-proctor-pin"
+        },
+        {
+          "label": "What Is Remote Proctoring?",
+          "faqId": "what-is-remote-proctoring"
+        },
+        {
+          "label": "How do I get a Proctor PIN?",
+          "faqId": "how-do-i-get-a-proctor-pin"
+        },
+        {
+          "label": "How do I know a proctor is required?",
+          "faqId": "how-do-i-know-a-proctor-is-required"
+        },
+        {
+          "label": "How do I become a proctor?",
+          "faqId": "how-do-i-become-a-proctor"
+        },
+        {
+          "label": "How do I proctor a test?",
+          "faqId": "how-do-i-proctor-a-test"
+        }
+      ]
+    },
+    {
+      "id": "profile-menu",
+      "prompt": "PROFILE topics:",
+      "options": [
+        {
+          "label": "How do I update my profile info?",
+          "faqId": "how-do-i-update-my-profile-info"
+        },
+        {
+          "label": "How do I view & select my Training Managers (TM)?",
+          "faqId": "how-do-i-view-select-my-training-managers-tm"
+        },
+        {
+          "label": "How do I update my email address?",
+          "faqId": "how-do-i-update-my-email-address"
+        }
+      ]
+    },
+    {
+      "id": "regions-menu",
+      "prompt": "REGIONS topics:",
+      "options": [
+        {
+          "label": "How do I change my PME Region?",
+          "faqId": "how-do-i-change-my-pme-region"
+        }
+      ]
+    },
+    {
+      "id": "requests-menu",
+      "prompt": "REQUESTS topics:",
+      "options": [
+        {
+          "label": "How do I request an Extension to complete a course?",
+          "faqId": "how-do-i-request-an-extension-to-complete-a-course"
+        },
+        {
+          "label": "As a Training Manager, how do I add different RUCs to my account?",
+          "faqId": "as-a-training-manager-how-do-i-add-different-rucs-to-my-account"
+        },
+        {
+          "label": "What if I do not meet all of the requirements to be a Training Manager (TM), but I still need the role?",
+          "faqId": "what-if-i-do-not-meet-all-of-the-requirements-to-be-a-training-manager-tm-but-i-still-need-the-role"
+        },
+        {
+          "label": "How do I become a Training Manager?",
+          "faqId": "how-do-i-become-a-training-manager"
+        },
+        {
+          "label": "How do I know who my Approving Officer (AO) is?",
+          "faqId": "how-do-i-know-who-my-approving-officer-ao-is"
+        },
+        {
+          "label": "How do I request an extension for my Training Manager account?",
+          "faqId": "how-do-i-request-an-extension-for-my-training-manager-account"
+        },
+        {
+          "label": "How do I request Equivalency credit?",
+          "faqId": "how-do-i-request-equivalency-credit"
+        }
+      ]
+    },
+    {
+      "id": "testing-menu",
+      "prompt": "TESTING topics:",
+      "options": [
+        {
+          "label": "How do I get the \"Take Test\" icon back if I failed a test?",
+          "faqId": "how-do-i-get-the-take-test-icon-back-if-i-failed-a-test"
+        },
+        {
+          "label": "How do I retake a test after being placed in remediation?",
+          "faqId": "how-do-i-retake-a-test-after-being-placed-in-remediation"
+        }
+      ]
+    }
+  ]
+}

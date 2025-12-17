@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MCeLE Chat Widget — Local Demo (MarineNet Portal Snapshot)</title>
+    <style>
+      :root{--mn-blue:#004080}
+      html,body{height:100%;margin:0}
+      body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;background:#f9fafb;color:#111}
+      .container{max-width:1100px;margin:0 auto;padding:72px 16px 32px 16px}
+      .topbar{position:fixed;top:0;left:0;right:0;height:56px;background:linear-gradient(135deg,var(--mn-blue),#021933);display:flex;align-items:center;justify-content:center;color:#fff;z-index:10}
+      .topbar a{color:#fff;text-decoration:underline}
+      .content-body{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:16px}
+      .mt-2{margin-top:8px}
+      .mt-3{margin-top:12px}
+      .mt-4{margin-top:16px}
+      .note{font-size:13px;color:#444}
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top justify-content-center topbar" aria-label="MarineNet Portal top navigation (snapshot)">
+      <div style="display:flex;gap:8px;align-items:center;">
+        <span style="font-weight:700;letter-spacing:.5px">MARINENET</span>
+        <span aria-hidden="true">•</span>
+        <span>Demo snapshot</span>
+        <span aria-hidden="true">•</span>
+        <a href="https://portal.marinenet.usmc.mil/content/mnet-portal/en.html" target="_blank" rel="noopener">Open official site</a>
+      </div>
+    </nav>
+
+    <main class="container" role="main">
+      <!-- Alert banner -->
+      <section aria-label="System notice" class="responsivegrid content-body px-3 px-md-4">
+        <div style="background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:12px 14px">
+          <strong>Help Desk Email Unavailable</strong>
+          <div class="mt-2">
+            The MCeLE Help Desk email (marinenet_support@usmc.mil) is currently unavailable. For assistance, please submit a support request via the Help Center or call the Help desk d
+          </div>
+        </div>
+      </section>
+
+      <!-- What's New hero -->
+      <section class="mt-4" aria-label="What's New">
+        <div style="background:#fff;border:1px solid #e5e7eb;border-radius:10px;overflow:hidden">
+          <div style="aspect-ratio:16/7;background:#0b5aa2;color:#fff;display:flex;align-items:center;justify-content:center;font-size:34px;font-weight:800;letter-spacing:.5px">
+            WHAT’S NEW
+          </div>
+          <div style="padding:10px 12px;border-top:1px solid #e5e7eb;color:#444">
+            What’s New: Marine Corps eLearning Ecosystem Update Released on 10/15/2025
+          </div>
+        </div>
+      </section>
+
+      <!-- Navigation apps grid -->
+      <section class="mt-4" aria-label="Applications">
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px">
+          <a href="#" style="text-decoration:none">
+            <div style="background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;display:flex;flex-direction:column;align-items:center;gap:10px">
+              <div style="width:56px;height:56px;border-radius:999px;background:#0b5aa2"></div>
+              <div style="text-align:center;color:#111;font-weight:600">Self-Paced Courses</div>
+            </div>
+          </a>
+          <a href="#" style="text-decoration:none">
+            <div style="background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;display:flex;flex-direction:column;align-items:center;gap:10px">
+              <div style="width:56px;height:56px;border-radius:999px;background:#556b2f"></div>
+              <div style="text-align:center;color:#111;font-weight:600">Instructor-Led Courses (MOODLE)</div>
+            </div>
+          </a>
+          <a href="#" style="text-decoration:none">
+            <div style="background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;display:flex;flex-direction:column;align-items:center;gap:10px">
+              <div style="width:56px;height:56px;border-radius:999px;background:#e0a800"></div>
+              <div style="text-align:center;color:#111;font-weight:600">MarineNet Video Services (MVS)</div>
+            </div>
+          </a>
+          <a href="#" style="text-decoration:none">
+            <div style="background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;display:flex;flex-direction:column;align-items:center;gap:10px">
+              <div style="width:56px;height:56px;border-radius:999px;background:#0b5aa2"></div>
+              <div style="text-align:center;color:#111;font-weight:600">Virtual Learning Environment (CONNECT)</div>
+            </div>
+          </a>
+          <a href="#" style="text-decoration:none">
+            <div style="background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;display:flex;flex-direction:column;align-items:center;gap:10px">
+              <div style="width:56px;height:56px;border-radius:999px;background:#556b2f"></div>
+              <div style="text-align:center;color:#111;font-weight:600">Library</div>
+            </div>
+          </a>
+          <a href="#" style="text-decoration:none">
+            <div style="background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;display:flex;flex-direction:column;align-items:center;gap:10px">
+              <div style="width:56px;height:56px;border-radius:999px;background:#0b5aa2"></div>
+              <div style="text-align:center;color:#111;font-weight:600">Communities</div>
+            </div>
+          </a>
+          <a href="https://portal.marinenet.usmc.mil/content/mnet-portal/en/help.html" target="_blank" rel="noopener" style="text-decoration:none">
+            <div style="background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;display:flex;flex-direction:column;align-items:center;gap:10px">
+              <div style="width:56px;height:56px;border-radius:999px;background:#0b5aa2"></div>
+              <div style="text-align:center;color:#111;font-weight:600">Help</div>
+            </div>
+          </a>
+          <a href="#" style="text-decoration:none">
+            <div style="background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;display:flex;flex-direction:column;align-items:center;gap:10px">
+              <div style="width:56px;height:56px;border-radius:999px;background:#0b5aa2"></div>
+              <div style="text-align:center;color:#111;font-weight:600">My Help Tickets</div>
+            </div>
+          </a>
+          <a href="#" style="text-decoration:none">
+            <div style="background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;display:flex;flex-direction:column;align-items:center;gap:10px">
+              <div style="width:56px;height:56px;border-radius:999px;background:#ff8c00"></div>
+              <div style="text-align:center;color:#111;font-weight:600">Training Manager Dashboard</div>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- Learning Resources quick links -->
+      <section class="mt-4" aria-label="Learning Resources">
+        <div style="background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:12px">
+          <div style="display:flex;flex-wrap:wrap;gap:10px">
+            <a href="#" style="text-decoration:none"><div style="border:1px solid #e5e7eb;border-radius:10px;padding:8px 12px;background:#f9fafb;color:#111">Annual / Required</div></a>
+            <a href="#" style="text-decoration:none"><div style="border:1px solid #e5e7eb;border-radius:10px;padding:8px 12px;background:#f9fafb;color:#111">Continuing Education Units/Reserve Points</div></a>
+            <a href="#" style="text-decoration:none"><div style="border:1px solid #e5e7eb;border-radius:10px;padding:8px 12px;background:#f9fafb;color:#111">New Courses</div></a>
+            <a href="#" style="text-decoration:none"><div style="border:1px solid #e5e7eb;border-radius:10px;padding:8px 12px;background:#f9fafb;color:#111">New to hosting on MCeLE?</div></a>
+            <a href="#" style="text-decoration:none"><div style="border:1px solid #e5e7eb;border-radius:10px;padding:8px 12px;background:#f9fafb;color:#111">Skillsoft Courses</div></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured columns -->
+      <section class="mt-4" aria-label="Featured">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px">
+          <div style="background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:12px">
+            <h2 style="margin:0 0 10px 0;font-size:16px">FEATURED COURSES</h2>
+            <div style="display:flex;flex-direction:column;gap:10px">
+              <a href="#" style="text-decoration:none;color:#0b5aa2">MCLearn 1100: Moodle for Beginner Course Developers - Section 001</a>
+              <a href="#" style="text-decoration:none;color:#0b5aa2">MCLearn 2200: Moodle H5P Interactive Content Development - Section 001</a>
+              <a href="#" style="text-decoration:none;color:#0b5aa2">Communities Owner/Manager Certification (COOMCERT)</a>
+            </div>
+          </div>
+          <div style="background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:12px">
+            <h2 style="margin:0 0 10px 0;font-size:16px">FEATURED VIDEOS</h2>
+            <div style="display:flex;flex-direction:column;gap:10px">
+              <a href="#" style="text-decoration:none;color:#0b5aa2">Session 1: Moodle 4.5 Upgrade Timeline Presentation and Discussion</a>
+              <a href="#" style="text-decoration:none;color:#0b5aa2">MarineNet Overview</a>
+              <a href="#" style="text-decoration:none;color:#0b5aa2">Underwater knot tying</a>
+              <a href="#" style="text-decoration:none;color:#0b5aa2">PWPS Site Selection Considerations (Part 1 of 6)</a>
+              <a href="#" style="text-decoration:none;color:#0b5aa2">View All</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Links and Resources -->
+      <section class="mt-4" aria-label="Links and Resources">
+        <div style="background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:16px">
+          <h2 style="margin:0 0 12px 0;font-size:18px">LINKS AND RESOURCES</h2>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px">
+            <div>
+              <h3 style="margin:0 0 8px 0;font-size:14px;color:#444">Official Links</h3>
+              <ul style="margin:0;padding-left:18px">
+                <li><a href="#" style="color:#0b5aa2">USMC Official Website</a></li>
+                <li><a href="#" style="color:#0b5aa2">Marines Recruiting</a></li>
+                <li><a href="#" style="color:#0b5aa2">Marine Corps Safety</a></li>
+                <li><a href="#" style="color:#0b5aa2">External Links</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 style="margin:0 0 8px 0;font-size:14px;color:#444">Social Media</h3>
+              <ul style="margin:0;padding-left:18px">
+                <li><a href="#" style="color:#0b5aa2">USMC Facebook</a></li>
+                <li><a href="#" style="color:#0b5aa2">USMC Twitter</a></li>
+                <li><a href="#" style="color:#0b5aa2">USMC Instagram</a></li>
+                <li><a href="#" style="color:#0b5aa2">CDET Facebook</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 style="margin:0 0 8px 0;font-size:14px;color:#444">Assistance & Help</h3>
+              <ul style="margin:0;padding-left:18px">
+                <li><a href="#" style="color:#0b5aa2">Veterans Crisis Line</a></li>
+                <li><a href="#" style="color:#0b5aa2">Sexual Assault Prevention</a></li>
+                <li><a href="https://portal.marinenet.usmc.mil/content/mnet-portal/en/help.html" target="_blank" rel="noopener" style="color:#0b5aa2">MarineNet Help</a></li>
+                <li><a href="#" style="color:#0b5aa2">Capture Browser Info</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 style="margin:0 0 8px 0;font-size:14px;color:#444">Quick Facts</h3>
+              <ul style="margin:0;padding-left:18px">
+                <li><a href="#" style="color:#0b5aa2">Getting Started with MCeLE</a></li>
+                <li><a href="#" style="color:#0b5aa2">Self Paced Quick Facts</a></li>
+                <li><a href="#" style="color:#0b5aa2">Instructor-Led (Moodle) Quick Facts</a></li>
+                <li><a href="#" style="color:#0b5aa2">MarineNet Video Services (MVS) Quick Facts</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <p class="note mt-3">
+        This page is a local snapshot for demo purposes only. Some official sites prevent embedding in iframes via security headers (X-Frame-Options / frame-ancestors). Use the link above to open the real portal.
+      </p>
+    </main>
+
+    <!-- Embedded MarineNet FAQ chat widget (reusing faq-chat-demo.html) -->
+    <iframe
+      src="faq-chat-demo.html"
+      title="MarineNet FAQ assistant"
+      style="
+        position: fixed;
+        right: 0.5rem;
+        bottom: 0.5rem;
+        width: 420px;
+        height: 540px;
+        border: none;
+        z-index: 1000;
+        background: transparent;
+        pointer-events: auto;
+      "
+    ></iframe>
+  </body>
+</html>
+
+

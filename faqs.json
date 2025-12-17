@@ -1,0 +1,1865 @@
+{
+  "categories": [
+    {
+      "id": "account-management",
+      "title": "ACCOUNT MANAGEMENT",
+      "faqs": [
+        {
+          "id": "how-do-i-change-my-security-question-answer-q-a",
+          "question": "How do I change my Security Question & Answer (Q/A)?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To change your Security Question & Answer (Q/A) after login, follow the steps below:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Access the MarineNet homepage.",
+                "Change Security Q/A” from the username menu dropdown on the right side of the page header.",
+                "Enter your present password.",
+                "Select a new Security Question.",
+                "Enter your answer twice.",
+                "Click \"Save.\"",
+                "A success message will display."
+              ]
+            },
+            {
+              "type": "note",
+              "text": "Note: Make sure you remember the answer to your Security question."
+            }
+          ]
+        },
+        {
+          "id": "what-is-the-password-policy-for-marinenet",
+          "question": "What is the password policy for MarineNet?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "MarineNet follows the Marine Corps Enterprise Network (MCEN) Unclassified Network Identification & Authentication Policy for passwords. To see the policy, click Password Policy."
+            }
+          ]
+        },
+        {
+          "id": "what-if-my-account-was-disabled-due-to-inactivity",
+          "question": "What if my account was disabled due to inactivity?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "If you think your account was disabled due to inactivity, use your username/password to try to log in. Click the \"Reactivate Your Disabled Account\" link on the right, if/when it appears. Complete the displayed form and click the \"Continue\" button."
+            },
+            {
+              "type": "paragraph",
+              "text": "If the system finds your info, complete another set of fields, and click \"Submit\". Click \"Continue\" on the success message to receive your account info by email."
+            },
+            {
+              "type": "paragraph",
+              "text": "If the system does not find your info, a message saying your account cannot be reactivated displays. Contact the Help Desk."
+            }
+          ]
+        },
+        {
+          "id": "what-if-i-do-not-remember-my-username-or-password",
+          "question": "What if I do not remember my username or password?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "If you do not remember your username and/or password, click the Login Page \"Forgot Username or Password\" link. After clicking this link:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "If you know your username, click the \"I know my username\" link on the resulting form. Enter your username and Security Q/A, and click the \"Submit\" button. Click \"Continue\" on the resulting guidance. You will receive an email with a temporary password to use for login. Once logged in, change the temporary password. Click \"Continue\" on the success message.",
+                "If you do not know your username, complete the Username Assistance form and click \"Continue\". On the resulting message, click \"Continue\", and you are navigated to the Login page. You will receive an email with your username.",
+                "If you do not know either your username or password, follow \"If you do not know your username\", above. When you reclaim your username, follow \"If you know your username\" (also above)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "can-i-change-my-security-question-answer-q-a-myself",
+          "question": "Can I change my Security Question & Answer (Q/A) myself?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Yes, you can change your own Security Question & Answer (Q/A). For the details, see the FAQ \"How do I change my Security Q/A?\""
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-change-my-password",
+          "question": "How do I change my password?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To change your password after login, follow the steps below:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Access the MarineNet homepage.",
+                "Select \"Change Password\" from the username menu dropdown on the right side of the page header.",
+                "Enter your current password.",
+                "Enter your new password twice.",
+                "Click \"Change Password\".",
+                "When the success message displays, click \"Continue.\""
+              ]
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-unlock-my-account",
+          "question": "How do I unlock my account?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Account lockouts are due to failed login attempts. Once locked, your account remains that way for 60 minutes. If you have a valid reason to waive this wait period, contact the Help Desk or an admin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "questionmark",
+      "title": "QUESTIONMARK",
+      "faqs": [
+        {
+          "id": "how-do-i-create-an-assessment-in-questionmark-onprem",
+          "question": "How do I create an assessment in Questionmark OnPrem?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Authors are advised to review the detailed tutorials available to best familiarize themselves with the system. However, this tutorial is intended to allow authors to quickly create an assessment using the basic features available in Questionmark OnPrem."
+            },
+            {
+              "type": "subheading",
+              "text": "1. Create a topic folder:"
+            },
+            {
+              "type": "paragraph",
+              "text": "a.) From the Authoring drop down, choose \"Topics.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "b.) Click on the correct root topic folder to highlight it."
+            },
+            {
+              "type": "paragraph",
+              "text": "c.) Click on the arrow to open the drop down menu. Ensure that the correct folder is highlighted."
+            },
+            {
+              "type": "paragraph",
+              "text": "***Topics\" should never be highlighted as this will create a new root folder. Click “new” to create a subtopic that is nested under the selected topic. Please ensure that you are creating your subtopics in the appropriate folders. Topics folders cannot be moved or deleted after they have been created."
+            },
+            {
+              "type": "paragraph",
+              "text": "d.) Name your topic. Consider using the Learning Objective or other specific identifier. Discuss this with your Group manager to ensure consistent naming conventions. Additional layers of sub-topics can be created to best meet your organizational needs. To create these, repeat the topic creation process, being sure to highlight the correct parent folder. When created, topic folders will always appear beneath the highlighted folder"
+            },
+            {
+              "type": "subheading",
+              "text": "2. Add questions to the topic folders:"
+            },
+            {
+              "type": "paragraph",
+              "text": "a.) On the Topics page, choose the specific topic or subtopic folder where the question should reside. If you do not see the appropriate folder, contact your Group Manager to request access."
+            },
+            {
+              "type": "paragraph",
+              "text": "b.) Ensure that the correct topic folder is highlighted, and then select \"New.” This will open the question type dropdown menu."
+            },
+            {
+              "type": "paragraph",
+              "text": "From this menu, select the type of question."
+            },
+            {
+              "type": "paragraph",
+              "text": "c.) Type your question and answer choices, mark the correct answer, and adjust the points. Save each item, then repeat the process to build your question bank."
+            },
+            {
+              "type": "subheading",
+              "text": "3. Use the items to build your assessment."
+            },
+            {
+              "type": "paragraph",
+              "text": "a.) Go to the authoring page by clicking on “Authoring” and choosing “Assessments” from the dropdown menu."
+            },
+            {
+              "type": "paragraph",
+              "text": "b.) Choose the folder where the assessment should reside. If you do not see the appropriate folder, contact your Group Manager. Ensure that the correct assessment folder is highlighted, and then select \"New.” Select the type of assessment you would like to author."
+            },
+            {
+              "type": "paragraph",
+              "text": "*** Please ensure that the correct folder is highlighted prior to creating the assessment."
+            },
+            {
+              "type": "paragraph",
+              "text": "c.) Set the template (talk with your Group Manager for the appropriate selection), assessment name, and begin adding questions to the question block. Click on the questionmark icon to gain additional information on these settings."
+            },
+            {
+              "type": "paragraph",
+              "text": "d.) Establish assessment outcomes in accordance with the pass/fail expectations of your program."
+            },
+            {
+              "type": "paragraph",
+              "text": "Add feedback to these outcomes that will be communicated to the test take (at a minimum, there should be a message informing students the test is complete."
+            },
+            {
+              "type": "paragraph",
+              "text": "e.) Save the assessment. Contact your group manager when the assessment is complete so that it can be published."
+            },
+            {
+              "type": "paragraph",
+              "text": "For additional information, go to Questionmark's support website at https://support.questionmark.com/ or contact taryn.lane@usmcu.edu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "self-study-courseware-development",
+      "title": "SELF STUDY COURSEWARE DEVELOPMENT",
+      "faqs": [
+        {
+          "id": "i-need-some-assistance-with-submitting-a-self-paced-content-development-application-for-a-course-to-be-created-where-can-i-go-for-assistance",
+          "question": "I need some assistance with submitting a Self-Paced Content development application for a course to be created. Where can I go for assistance?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The Self-Paced Courseware/Content Development community has an open forum, tutorials, guides, and references where you can ask questions and seek answers from other Self-Paced"
+            },
+            {
+              "type": "paragraph",
+              "text": "Courseware designers and practitioners. In order to submit an application as a sponsor, you must be a Marine from the active or reserve component or a government civilian."
+            },
+            {
+              "type": "paragraph",
+              "text": "Contractors must funnel applications through a sponsor."
+            },
+            {
+              "type": "paragraph",
+              "text": "Request access to the self-paced content community here: https://communities.marinenet.usmc.mil/digital-content-creation/self-paced-content/"
+            },
+            {
+              "type": "paragraph",
+              "text": "Additional information can be found at: https://www.usmcu.edu/CDET/marinenet-dev/"
+            },
+            {
+              "type": "paragraph",
+              "text": "Requests to be contacted to discuss the application process should be sent to: mcu_cdet_digitalcontent@usmcu.edu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adobe-connect",
+      "title": "ADOBE CONNECT",
+      "faqs": [
+        {
+          "id": "who-needs-an-account",
+          "question": "Who needs an account?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Only the individual hosting the Connect meeting needs an account. All other participants and presenters can enter as guests using the link provided by the host. The host can promote guests to presenters or co-hosts while in the meeting room. If a host wants to make another person a permanent co-host or presenter in their room, the individual must also have a host account."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-request-a-host-account",
+          "question": "How do I request a host account?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "All new Adobe Connect Hosts are required to complete the self-paced VLE certification course (CDETETVLE1) prior to requesting a host account."
+            },
+            {
+              "type": "paragraph",
+              "text": "To request a host account, click the Virtual Learning Environment (Connect) button on the MarineNet homepage."
+            },
+            {
+              "type": "paragraph",
+              "text": "Click the \"Request Support\" button."
+            },
+            {
+              "type": "paragraph",
+              "text": "You will be redirected to the ticket support portal. Click on the \"Request Adobe Connect Host Account\" link."
+            },
+            {
+              "type": "paragraph",
+              "text": "Be sure to provide the requested information before submitting the ticket. Please note, you will be required to upload a copy of your VLE certification course certificate (in the attachment area). Then click the \"Create\" button."
+            }
+          ]
+        },
+        {
+          "id": "i-have-a-host-account-how-do-i-access-my-account",
+          "question": "I have a Host account; how do I access my account?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Hosts can access Connect Central through the MarineNet Portal (https://www.marinenet.usmc.mil) by selecting the Virtual Learning Environment link and choosing Log In."
+            }
+          ]
+        },
+        {
+          "id": "do-students-or-participants-need-accounts",
+          "question": "Do students or participants need accounts?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "No, students and participants can enter meeting rooms as guests. The host of the room has the option to configure the room for guest access. Hosts can create the room and just share the URL with the participants."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-set-up-a-meeting-room",
+          "question": "How do I set up a meeting room?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "After you log in to Connect Central you can navigate to the Content tab-->Shared Content tab-->Tutorials for Meeting Hosts folder to view video and PDF tutorials, to include how to create a meeting room. Tutorials are also available in the MarineNet E-learning Ecosystem library and can be accessed using the search term “Adobe Connect” in the site search bar."
+            }
+          ]
+        },
+        {
+          "id": "how-many-people-can-be-in-a-meeting-room-at-one-time",
+          "question": "How many people can be in a meeting room at one time?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Adobe Connect meeting rooms are intended for up to 100 people. If you need to host a larger event, you can request a seminar room."
+            }
+          ]
+        },
+        {
+          "id": "what-is-the-difference-between-a-seminar-room-and-a-meeting-room",
+          "question": "What is the difference between a seminar room and a meeting room?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Seminar rooms and meeting rooms are essentially the same except a seminar room can host more users than a meeting room. Seminar rooms operate on a shared licensing structure and therefore must be scheduled in advance."
+            }
+          ]
+        },
+        {
+          "id": "how-can-i-request-a-seminar-room",
+          "question": "How can I request a seminar room?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "You can request an Adobe Connect seminar room by sending an email to erika.jacobs@usmcu.edu. Be sure to include the following information:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Your organization",
+                "Event name & description",
+                "Date/time of your event (be sure to include your time zone)",
+                "Meeting host/presenter username(s)",
+                "Anticipated number of participants"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact-information",
+      "title": "CONTACT INFORMATION",
+      "faqs": [
+        {
+          "id": "how-do-i-put-in-a-support-request-to-the-marinenet-help-desk",
+          "question": "How do I put in a Support Request to the MarineNet Help Desk?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The Help links located on the Login Page and the system footer include a Create New Support Request button. Click this button to open the Help Desk Support Request. You can also reach this request by clicking the Request Support link in the MarineNet Help Center."
+            },
+            {
+              "type": "paragraph",
+              "text": "Complete the Help Desk Support Request and click the Submit button. Note the Incident Number on the resulting message."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-call-the-marinenet-help-desk",
+          "question": "How do I call the MarineNet Help Desk?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Call Monday - Friday, 0730 - 1700 EST, at:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "1-888-4DL-USMC (435-8762)",
+                "DSN-995-6049 or",
+                "301-995-6049 (Commercial)"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Or, you can Submit a Support Request."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "courses-curricula",
+      "title": "COURSES/CURRICULA",
+      "faqs": [
+        {
+          "id": "how-do-i-launch-a-course-or-curriculum",
+          "question": "How do I launch a course or curriculum?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To launch a self-paced course or curriculum on MarineNet, follow the steps below:"
+            },
+            {
+              "type": "paragraph",
+              "text": "1. Enroll in the course or curriculum via the Course Catalog."
+            },
+            {
+              "type": "paragraph",
+              "text": "2. Select “My Learning” at the top of the page."
+            },
+            {
+              "type": "paragraph",
+              "text": "3. Choose “Self-Paced Courses” and scroll down to “My Active Courses.”"
+            },
+            {
+              "type": "paragraph",
+              "text": "4. From My Active Courses, click the \"Launch Course\" or \"Launch Menu\" button for the course or curriculum."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "For standard training, the Launch Course page opens. Click the \"Launch Course\" button on this page.",
+                "For non-standard training, the Launch Menu page opens. Click the \"Launch\" button on the top panel of the Course Menu. When you finish the first menu item, the \"Launch\" button appears on the next menu item, so you can begin that menu item. This process continues until all menu items are finished."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-enroll-in-an-instructor-led-moodle-course",
+          "question": "How do I enroll in an Instructor-Led Moodle Course?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To enroll in an Instructor-Led Moodle course, follow the enrollment instructions provided by your school."
+            },
+            {
+              "type": "paragraph",
+              "text": "Here are two ways to access Moodle:"
+            },
+            {
+              "type": "paragraph",
+              "text": "· From the Portal page, the “Instructor-Led Courses (Moodle)” circle about half way down the page."
+            },
+            {
+              "type": "paragraph",
+              "text": "· From any MarineNet page, click “My Learning” at the top of the page and then click on the “Instructor-Led Courses” link that shows up near the top of the page."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-request-an-official-transcript",
+          "question": "How do I request an official transcript?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Important Note: Official transcripts cannot be provided to student users. (See the FQ \"How do I view or download my unofficial transcript?\"). Current policy requires sealed official transcripts to be mailed to Commands, employers, or universities."
+            },
+            {
+              "type": "paragraph",
+              "text": "You can submit a request to send your official transcript to a place you want to work or go to school. To do this, you need to submit an Official Transcript Request."
+            },
+            {
+              "type": "paragraph",
+              "text": "To submit an Official Transcript Request, follow the steps below:"
+            },
+            {
+              "type": "paragraph",
+              "text": "1. Select “My Learning” at the top of the page."
+            },
+            {
+              "type": "paragraph",
+              "text": "2. Choose “Transcripts & Certificates.”"
+            },
+            {
+              "type": "paragraph",
+              "text": "3. Click the \"Request Official Transcript\" button."
+            },
+            {
+              "type": "paragraph",
+              "text": "4. Complete the request form. Remember to indicate whether you want Annual Training included."
+            },
+            {
+              "type": "paragraph",
+              "text": "5. Click the \"Submit\" button."
+            },
+            {
+              "type": "paragraph",
+              "text": "6. See a success message."
+            },
+            {
+              "type": "paragraph",
+              "text": "7. See “Forms & Requests” to track your request."
+            },
+            {
+              "type": "paragraph",
+              "text": "8. With request approval, your official transcript is sent to the place you requested."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-enroll-in-a-course",
+          "question": "How do I enroll in a course?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "You can enroll in Self-Paced Training from the Course Details page for the course. If there is an Enroll button on the page, click it. If there is a Request Wizard on the page, click the Start button and follow the wizard instructions until all needed requests have been submitted. Click OK on the success message."
+            },
+            {
+              "type": "paragraph",
+              "text": "To request to enroll in a PME Seminar, follow these steps:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Navigate to the Course Details page for the course.",
+                "Scroll down to and complete the Confirm Preferred Address form.",
+                "When there is a PME Region map, select a Region or change your existing one, as needed.",
+                "If there is a Request Wizard, click the Start button and follow the wizard instructions.",
+                "Click the Enroll button.",
+                "Click OK on the success message."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "To enroll in Instructor-Led (Moodle) Training, locate and open the course. Open the Cog icon on the course tile, and then select \"Enroll me in this course\". Click the Enroll Me button."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-request-enrollment-in-a-course-that-says-i-am-not-eligible",
+          "question": "How do I request enrollment in a course that says I am not eligible?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Courses/Curricula have prerequisite requirements that must be met for eligibility. Some also have restrictions."
+            },
+            {
+              "type": "paragraph",
+              "text": "If you receive a message stating you are not eligible for a course, you may be allowed to submit a waiver. Waiver requests do not guarantee enrollment and may be denied. If during enrollment the Course Details page shows a Request Wizard that says \"waiver\", Waiver Requests are accepted. Follow the wizard steps to complete and submit the request."
+            },
+            {
+              "type": "paragraph",
+              "text": "Fore more info, see Waiver Requests."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-view-or-download-my-unofficial-transcript",
+          "question": "How do I view or download my unofficial transcript?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To view or download your unofficial transcript, follow the steps below:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Access the Student Dashboard.",
+                "Select the My Certificates option on the left navigation bar.",
+                "Click the Print Transcript button to see the transcript.",
+                "Download or print the PDF of the Unofficial Transcript, if desired.",
+                "Close the PDF when you are finished."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-view-my-certificate-or-diploma",
+          "question": "How do I view my certificate or diploma?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To view your certificate or diploma, access the Student Dashboard, locate the course or curriculum in My Completed Courses, and click the View Certificate button. Click a second View Certificate button located on the My Certificates page to view the certificate or diploma. Print or download, as needed."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-disenroll-from-a-course",
+          "question": "How do I disenroll from a course?",
+          "answerBlocks": [
+            {
+              "type": "note",
+              "text": "Note: Do not disenroll from a course because you're having technical issues or to avoid a Remediation action."
+            },
+            {
+              "type": "paragraph",
+              "text": "To disenroll from a course, click the More menu for a My Active Courses listing. From the open menu, select \"Disenroll from Course\". Click OK on both the confirmation and success messages. The course moves to My Completed Courses, with a Disenrolled status."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "create-or-request-account",
+      "title": "CREATE OR REQUEST ACCOUNT",
+      "faqs": [
+        {
+          "id": "how-do-i-create-a-marinenet-account",
+          "question": "How do I create a MarineNet account?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "You can create a MarineNet account using the Login Page \"Sign Up for a MarineNet Account\" link. Click this link, complete the resulting Create Account fields, and click the Next button. If the system finds your information, complete another set of Create Account fields and click the Create User button to be logged in."
+            },
+            {
+              "type": "paragraph",
+              "text": "If the system does not find your information:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Complete the Account Request form. Note that your Sponsor must be a GS-12 or O-4 or above (Excluding National Guard) and have a MarineNet account.",
+                "Click the Submit button on the form.",
+                "Read the information about account creation on the resulting success message.",
+                "With request approval, you will be emailed a username and temporary password.",
+                "At first login, change your password and create a Security Q/A."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "For more information about this process, see Create or Request Account."
+            }
+          ]
+        },
+        {
+          "id": "i-tried-to-create-an-account-for-myself-but-kept-getting-a-message-saying-my-account-already-exists-what-do-i-do",
+          "question": "I tried to create an account for myself but kept getting a message saying my account already exists. What do I do?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "If, when trying to create an account, you get a message that an account for you already exists, see the FAQ \"What if I do not remember my username or password?\" Follow the steps in this FAQ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ecdep",
+      "title": "ECDEP",
+      "faqs": [
+        {
+          "id": "how-do-i-get-command-approval-into-ecdep-seminar",
+          "question": "How do I get Command approval into ECDEP seminar?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A video has been provided to help with the ECDEP process for Command approval. Please click the link below to view ECDEP enrollment video."
+            },
+            {
+              "type": "paragraph",
+              "text": "ECDEP Command Approval"
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-request-enrollment-for-ecdep-seminar",
+          "question": "How do I request enrollment for ECDEP seminar?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A video has been provided to help with the ECDEP process of enrolling. Please click the link below to view ECDEP enrollment video."
+            },
+            {
+              "type": "paragraph",
+              "text": "ECDEP enrollment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "groups",
+      "title": "GROUPS",
+      "faqs": [
+        {
+          "id": "how-do-i-see-a-list-of-the-groups-i-belong-to",
+          "question": "How do I see a list of the Groups I belong to?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To see a list of the Groups you belong to, access the Student Dashboard, and then select View Groups from the username menu in the page header. Click the My Curriculum Groups (CG) drop down field to see your CGs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "library",
+      "title": "LIBRARY",
+      "faqs": [
+        {
+          "id": "how-do-i-download-a-cui-document",
+          "question": "How do I download a CUI document?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To download a CUI document, you must log in to MarineNet using your DoD CAC. You may be required to confirm that you know you are accessing CUI information. The remainder of the process is the same as for any other document. For detailed information, see the Library Help Page."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "log-in",
+      "title": "LOG IN",
+      "faqs": [
+        {
+          "id": "how-do-i-log-into-marinenet",
+          "question": "How do I log into MarineNet?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To log in to MarineNet, use the applicable steps below:"
+            },
+            {
+              "type": "paragraph",
+              "text": "To log in with your CAC card:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Shut down browser, then open it again.",
+                "Insert CAC into the reader.",
+                "Acess the MarineNet URL.",
+                "Click \"Agree\" on the Warning Statement.",
+                "Select your DoD ID Certificate and click \"OK\".",
+                "Enter your PIN and click \"OK\"."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "To log in using your username & password:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Shut down browser, then open it again.",
+                "Access the MarineNet URL.",
+                "Click \"Agree\" on the Warning Statement.",
+                "Click \"Cancel\" if prompted to select a CAC or certificate.",
+                "Enter your username & password.",
+                "Click \"Log In\" button."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "More more info, see Log In."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marinenet-video-services-mvs",
+      "title": "MARINENET VIDEO SERVICES (MVS)",
+      "faqs": [
+        {
+          "id": "can-i-upload-other-video-captured-by-other-people-organizations",
+          "question": "Can I upload other video captured by other people/organizations?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "You may upload others' video only with their express consent or if the video is in the public domain."
+            }
+          ]
+        },
+        {
+          "id": "is-there-a-limit-to-the-number-of-videos-that-can-be-uploaded-per-person",
+          "question": "Is there a limit to the number of videos that can be uploaded per person?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Not at this time."
+            }
+          ]
+        },
+        {
+          "id": "who-will-see-my-feedback",
+          "question": "Who will see my feedback?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The MVS administrators, channel managers, reviewers, and the original video uploader will be able to see your feedback. All other users will not be able to see your feedback."
+            }
+          ]
+        },
+        {
+          "id": "will-my-video-be-visible-immediately-after-upload",
+          "question": "Will my video be visible immediately after upload?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "No. All videos are subject to review by your channel's designated reviewers."
+            }
+          ]
+        },
+        {
+          "id": "what-control-of-the-video-do-i-have-following-its-upload",
+          "question": "What control of the video do I have following its upload?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "As the submitter of the video, you will have the ability to remove it from the system."
+            }
+          ]
+        },
+        {
+          "id": "how-long-is-the-review-process",
+          "question": "How long is the review process?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A reviewer will act on your video as quickly as possible. However, there is no time limit."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "With video upload, the reviewer will get notification within 30 minutes because of incode process and movement of the file.",
+                "The time it takes for your video to be approved is dependent on the availability of your channel review.",
+                "If your video status has not changed in 30 days, a notification will be sent to the channel manager and MVS administrators."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "can-video-be-downloaded",
+          "question": "Can video be downloaded?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "No. This feature is targeted for a future release."
+            }
+          ]
+        },
+        {
+          "id": "why-might-my-video-be-disapproved",
+          "question": "Why might my video be disapproved?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Your video might be disapproved because:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "The video violates the Prohibited Content policy.",
+                "The reviewer identifies an issue with the content or quality."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "can-i-access-view-and-upload-video-from-a-tablet-or-smartphone",
+          "question": "Can I access, view, and upload video from a tablet or smartphone?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Yes. This website is designed to conform to your device's screen size."
+            },
+            {
+              "type": "paragraph",
+              "text": "Your mobile device must also have the current DoD root certificate installed. For more information, see the links below."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Android Device",
+                "iOS Device"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "can-users-provide-feedback",
+          "question": "Can users provide feedback?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Yes. Users are encouraged to provide feedback concerning both videos and the web site. Your feedback will not be anonymous."
+            }
+          ]
+        },
+        {
+          "id": "will-i-be-notified-upon-approval-or-disapproval",
+          "question": "Will I be notified upon approval or disapproval?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Yes. You will be notified via email. Ensure your MarineNet profile email address is accurate."
+            },
+            {
+              "type": "note",
+              "text": "Note: See the FAQ \"How do I update my email address?\""
+            }
+          ]
+        },
+        {
+          "id": "who-can-upload-video",
+          "question": "Who can upload video?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Anyone associated with a channel on MVS can upload a video. The video will still need to be approved by a channel reviewer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "course-catalog",
+      "title": "COURSE CATALOG",
+      "faqs": [
+        {
+          "id": "how-do-i-view-information-about-a-course-or-curriculum",
+          "question": "How do I view information about a course or curriculum?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To view info about a course or curriculum, access the course/curriculum via the Course Catalog or Catalog Search; (see Course Catalog). Click any of the Course Catalog entries or Catalog Search results to see the Course/Curriculum Details Page for the item. The Summary tab on this page shows the most important info about the course/curriculum. The Full Details tab shows additional details."
+            },
+            {
+              "type": "paragraph",
+              "text": "For more info, see Course Details Page."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-find-predeployment-training-program-ptp-courses-available-on-marinenet",
+          "question": "How do I find Predeployment Training Program (PTP) courses available on MarineNet?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To find the Predeployment Tranining Program (PTP) courses available on MarineNet, you must access the Course Catalog, following the steps below:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Acess the Student Dashboard",
+                "Select the Course Catalog option on the page header",
+                "Click on the \"Self-Paced Courses\" dropdown",
+                "Check mark the \"Predeployment Training Program (PTP)\" option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "miscellaneous",
+      "title": "MISCELLANEOUS",
+      "faqs": [
+        {
+          "id": "what-do-i-do-if-images-or-videos-won-t-load",
+          "question": "What do I do if images or videos won't load?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "If you find that images or videos will not load, it may have something to do with your browser. For Internet Explorer browsers, you might have to change the compatibility view settings to allow the media to be displayed."
+            },
+            {
+              "type": "paragraph",
+              "text": "Use the steps below to do this:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Click the Cog/Gear icon in the top-right corner of the window.",
+                "Select Compatibility View Settings.",
+                "If \"usmc.mil\" is in the list of websites, remove it. If it's not there, add it.",
+                "Click \"Close\"."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "how-can-i-receive-a-completion-on-my-transcript-for-a-course-i-have-taken-multiple-times-that-does-not-show-as-completed",
+          "question": "How can I receive a completion on my transcript for a course I have taken multiple times that does not show as completed?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To receive a completion on your transcript for a course taken multiple times that does not show as completed, ensure you have:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Taken all the course material.",
+                "Passed all exercises and embedded exams (if applies).",
+                "Waited at least 5 minutes for completion to be added."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "If your transcript still does not show the completion, send a support request to the MarineNet Help Desk. Your request must include the following:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "A screen shot of the final page of the course, where it states you completed the course",
+                "Username",
+                "Course Code",
+                "Course Name",
+                "Completion Date",
+                "Grade received (if given)",
+                "Your Grade/Rank"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "i-m-the-marinenet-training-manager-tm-for-my-unit-how-do-i-run-a-marinenet-report",
+          "question": "I'm the MarineNet Training Manager (TM) for my Unit. How do I run a MarineNet Report?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To run a MarineNet Report, follow the steps below:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Log in to MarineNet.",
+                "Go to the admin view.",
+                "Click Run a Report under the Analysis Menu.",
+                "Select the report from the Report Name column.",
+                "Complete the report form fields.",
+                "Click the View Report button.",
+                "Respond to system messages, if any.",
+                "See the generated report."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-take-a-screenshot",
+          "question": "How do I take a screenshot?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To take a screenshot, follow the applicable steps:"
+            },
+            {
+              "type": "paragraph",
+              "text": "Windows PC"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Place your cursor on the screen you want to capture.",
+                "Press your keyboard's Function (fn) and Print Screen (prt sc) keys at the same time.",
+                "Open Paint from your PC's application list.",
+                "Paste the screen capture into Paint.",
+                "Save the file."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "MAC Book"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Place your cursor on the screen you want to capture.",
+                "Press the following keys at the same time: Command + Shift + 3.",
+                "Hear a brief camera sound.",
+                "The screenshot is saved as a .PNG file named \"Screenshottime/date\"."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "what-happens-to-my-old-failure-on-my-transcript",
+          "question": "What happens to my old failure on my transcript?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Your old failure for a course you passed after re-enrolling in the course will be removed from your MarineNet transcript and replaced with your new grade. Your old failure will remain in your transcript history."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moodle",
+      "title": "MOODLE",
+      "faqs": [
+        {
+          "id": "enroll-in-instructor-led-training-moodle",
+          "question": "Enroll in Instructor-Led Training (Moodle)",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To enroll in an Instructor-Led (Moodle) course, follow the enrollment instructions provided by your school."
+            }
+          ]
+        },
+        {
+          "id": "i-need-some-assistance-with-a-moodle-course-i-am-creating-where-can-i-go-for-assistance",
+          "question": "I need some assistance with a Moodle course I am creating. Where can I go for assistance?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "I need some assistance with a Moodle course I am creating. Where can I go for assistance? The Moodle Course Development 2.0 community has an open forum, tutorials, guides, and references where you can ask questions and seek answers from other Moodle course designers. You must be E-5 or above or in civilian or contractor position supporting Instructor led course development in order to access the community resources. Request access here: https://elearning.marinenet.usmc.mil/moodle/course/view.php?id=3496 Access the Open Forum here: https://elearning.marinenet.usmc.mil/moodle/mod/forum/view.php?id=304318 Design consultation sessions are also available upon request by reaching out to Moodle Course Development - Course Chiefs."
+            }
+          ]
+        },
+        {
+          "id": "how-can-i-use-the-moodle-mobile-app",
+          "question": "How can I use the Moodle Mobile App?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Check out the Moodle micro-learning course: Go Mobile with Moodle Apps: Moodle Apps 101 https://elearning.marinenet.usmc.mil/moodle/course/view.php?id=2054"
+            }
+          ]
+        },
+        {
+          "id": "moodle-instructor-led-notifications",
+          "question": "Moodle (Instructor-Led) Notifications",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Moodle notifications can be viewed from both the MarineNet and the Moodle Notification Pages. As with MN notifications, users can select which Moodle notifications they receive. This selection process occurs on a dedicated Moodle Page where the user's Moodle notifications are also listed."
+            },
+            {
+              "type": "paragraph",
+              "text": "OPEN MOODLE NOTIFICATION PREFERENCES PAGE"
+            },
+            {
+              "type": "paragraph",
+              "text": "Click the Instructor-Led Settings \"page\" link at the bottom of the MN Notifications Settings Page. The Moodle Notification Preferences Page opens."
+            },
+            {
+              "type": "paragraph",
+              "text": "Instructor-Led Settings Link"
+            },
+            {
+              "type": "paragraph",
+              "text": "VIEW MOODLE NOTIFICATIONS"
+            },
+            {
+              "type": "paragraph",
+              "text": "1) Click the Bell icon located on the upper-right Moodle Notification Preferences Page."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bell Icon"
+            },
+            {
+              "type": "paragraph",
+              "text": "2)The Moodle Notification Preview Window opens, enabling users to access their latest notifications."
+            },
+            {
+              "type": "paragraph",
+              "text": "Moodle Notification Preview Window"
+            },
+            {
+              "type": "paragraph",
+              "text": "SELECT & READ MOODLE NOTIFICATIONS"
+            },
+            {
+              "type": "paragraph",
+              "text": "1) To open a notification from the Notification Preview Window, click the associated link."
+            },
+            {
+              "type": "note",
+              "text": "Note: To see all your existing Moodle notifications, click the \"See all\" link at the bottom."
+            },
+            {
+              "type": "paragraph",
+              "text": "2) The notification content displays to the right, with the Notifications List on the left."
+            },
+            {
+              "type": "paragraph",
+              "text": "Open Moodle Notification"
+            },
+            {
+              "type": "paragraph",
+              "text": "SELECT MOODLE SETTINGS"
+            },
+            {
+              "type": "paragraph",
+              "text": "The page where Moodle notifications are previewed also enables users to select Moodle notification preferences. Select Web or Email settings for each function listed, according to your preference."
+            },
+            {
+              "type": "note",
+              "text": "NOTE: Changes made to this page are auto-saved, without the need to click a \"Save\" button."
+            },
+            {
+              "type": "paragraph",
+              "text": "Instructor-Led Notification Preferences (Top Only)"
+            },
+            {
+              "type": "paragraph",
+              "text": "DISABLE MOODLE NOTIFICATIONS"
+            },
+            {
+              "type": "paragraph",
+              "text": "To disable all Moodle Notifications, click the \"Disable Notifications\" box at the page's top left."
+            },
+            {
+              "type": "paragraph",
+              "text": "Disable Notifications Box"
+            }
+          ]
+        },
+        {
+          "id": "request-a-student-s-enrollment-in-instructor-led-training-moodle",
+          "question": "Request a Student's Enrollment in Instructor-Led Training (Moodle)",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To enroll one or more students in an Instructor-Led (Moodle) course, follow the enrollment instructions provided by the school that offers the course."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modify-screen-display",
+      "title": "MODIFY SCREEN DISPLAY",
+      "faqs": [
+        {
+          "id": "how-can-i-modify-my-screen-display",
+          "question": "How can I modify my screen display?",
+          "answerBlocks": [
+            {
+              "type": "note",
+              "text": "Note: The screen display settings that you set affect your account only."
+            },
+            {
+              "type": "paragraph",
+              "text": "To modify your screen display, follow the steps below:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Access the Student Dashboard.",
+                "Select Modify Screen Display from the username menu in page header.",
+                "Click the Records per Page field.",
+                "Select number of records per page to display for lists.",
+                "Mark the Show Verbose Errors / CAC-Only Functionality checkbox to view error details for CAC logins only.",
+                "Click the \"Save\" button."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notifications",
+      "title": "NOTIFICATIONS",
+      "faqs": [
+        {
+          "id": "when-do-users-receive-system-notifications",
+          "question": "When do users receive system notifications?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Users receive system notifications to record many activities, including survey reminders, course completions, Group creation, and each stage of the request process. For more information, see Notifications."
+            }
+          ]
+        },
+        {
+          "id": "how-can-i-find-a-system-notification-i-am-waiting-for",
+          "question": "How can I find a system notification I am waiting for?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To find a system notification, click the Notifications tab on the Student Dashboard. Click a Notification Type (Enrollment, Document, etc.) to see all the notifications of that kind listed on the page. To open one of these notifications, click the closed envelope icon in the View column for the notification listing."
+            },
+            {
+              "type": "paragraph",
+              "text": "For more information, see Notifications."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proctoring",
+      "title": "PROCTORING",
+      "faqs": [
+        {
+          "id": "how-do-i-find-out-who-my-proctor-is",
+          "question": "How do I find out who my proctor is?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To find someone to proctor a course exam, reach out to your Training Manager. You can also look up who is a Training manager in your unit, you can review the FAQ here or watch the video here."
+            }
+          ]
+        },
+        {
+          "id": "how-does-a-proctor-request-a-remote-proctor-pin",
+          "question": "How Does a Proctor Request a Remote Proctor Pin?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To request a remote proctor pin, click on the drop down at the top right, then click on REQUEST PROCTOR PIN"
+            },
+            {
+              "type": "paragraph",
+              "text": "Click on the button for REMOTE PROCTORING PIN. Be sure to have the student's username below before clicking GENERATE PROCTOR PIN."
+            },
+            {
+              "type": "paragraph",
+              "text": "Under CURRENT PIN INFORMATION, you will see information such as the pin and the expiration of the pin. Be aware this pin can only be used for the student listed. If you need to proctor another user, you must create a new pin."
+            }
+          ]
+        },
+        {
+          "id": "what-is-remote-proctoring",
+          "question": "What Is Remote Proctoring?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Remote proctoring is a service that allows a student to take a proctored examination at a separate location from the proctor withour compromising the integrity of the exam."
+            },
+            {
+              "type": "paragraph",
+              "text": "CDET policy on Academin Integrity while remote proctoring"
+            },
+            {
+              "type": "paragraph",
+              "text": "The first time a CDET computer-based instruction learner violates the CDET Academic Integrity Policy will result in:"
+            },
+            {
+              "type": "paragraph",
+              "text": "• Disenrollment from the course and marked as a failure."
+            },
+            {
+              "type": "paragraph",
+              "text": "• Notification of the learner’s appropriate-level commanding officer."
+            },
+            {
+              "type": "paragraph",
+              "text": "• Disabling the learner’s MarineNet account for 30 days."
+            },
+            {
+              "type": "paragraph",
+              "text": "• Lockout from the course for a specified period of time (90 days for lance corporals"
+            },
+            {
+              "type": "paragraph",
+              "text": "and below; 6 months for corporals and sergeants; one year for staff sergeants and above)."
+            },
+            {
+              "type": "paragraph",
+              "text": "The Academic policy letter can be viewed here."
+            },
+            {
+              "type": "paragraph",
+              "text": "If you would like to know who can proctor, please click here."
+            },
+            {
+              "type": "paragraph",
+              "text": "If you are a proctor and do not know how to generate a pin, click here."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-get-a-proctor-pin",
+          "question": "How do I get a Proctor PIN?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To get a Proctor PIN, follow the steps below:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Access the Student Dashboard.",
+                "Select Request Proctor PIN from username menu on page header.",
+                "Click the Generate Proctor PIN button.",
+                "Write down the PIN exactly as shown.",
+                "User the PIN for a proctored test."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-know-a-proctor-is-required",
+          "question": "How do I know a proctor is required?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To find out whether a proctor is required for a test:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Locate the course in My Active Courses.",
+                "Click the course's More menu.",
+                "If a proctor is needed, you will see a message stating this."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "You can also look at the course's Course Details Page, where it will say \"Requires Proctor\" next to the test indicator when a proctor is needed. See the FAQ \"How do I view information about a course or curriculum\" for more about this page."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-become-a-proctor",
+          "question": "How do I become a proctor?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Any user can proctor, if they:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Completed the Proctor Certification course;",
+                "Are an E-6 or above (E-5 or above for EPME3000AA or EPME4000AA);",
+                "Are senior in rank to the student they are proctoring; and",
+                "Are not enrolled in the course they are proctoring."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "For more details, see Proctoring."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-proctor-a-test",
+          "question": "How do I proctor a test?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To proctor a test, you must have a MarineNet account and obtain a Proctor PIN before the test is launched. Also, you must be in the same physical location as the student test-taker the whole time he/she is taking the test."
+            },
+            {
+              "type": "paragraph",
+              "text": "Follow the steps below to administer a proctored test:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Ensure the test has been launched.",
+                "When the Proctor Authentication Wizard opens, click the \"Authenticate Proctor\" button.",
+                "Enter your username and Proctor PIN. (You have 3 attempts to enter them.)",
+                "Click the \"Next\" button.",
+                "Read the page that opens, and click the \"Accept\" button.",
+                "The test opens, and the student can begin answering questions."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "If you do not have a MarineNet account or Proctor PIN when the test is launched, click the \"generate a PIN\" or \"create an account\" link on the Proctor Authentication Wizard. Follow the steps that display."
+            },
+            {
+              "type": "paragraph",
+              "text": "For more info, see Proctoring."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "title": "PROFILE",
+      "faqs": [
+        {
+          "id": "how-do-i-update-my-profile-info",
+          "question": "How do I update my profile info?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To update your profile info, first access your profile as follows:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Access the Student Dashboard.",
+                "Click View/Modify Your Info in the username menu on the page header.",
+                "Your profile opens, displaying 5 tabs."
+              ]
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Click the Preferred Contact Info tab to open, if necessary.",
+                "Change your address, phone number, and/or email address.",
+                "Change your PME Region: Select a new Region from the map.",
+                "Fill in the Transfer Request fields.",
+                "Click Save/Acknowledge.",
+                "When request is approved, your Region changes."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "To update your Primary Info:"
+            },
+            {
+              "type": "paragraph",
+              "text": "Active/Reserve Marines -"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Contact your IPAC.",
+                "Request an update of your MCTFS profile info.",
+                "Specify exact changes based on Primary Info tab."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Other Users -"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Open the Edit Primary Info tab.",
+                "Add input only to the fields that require updating.",
+                "Complete the mandatory ( * ) POC fields.",
+                "Click Submit.",
+                "If request is approved, the requested updates are made."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "For more info, see Profile."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-view-select-my-training-managers-tm",
+          "question": "How do I view & select my Training Managers (TM)?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To view & select your Training Managers (TM), follow these steps:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "In MarineNet, click on the drop down at the top right.",
+                "Click View/Modify Your Info from the username menu on the page header.",
+                "Open the Training Groups tab to view your TMs.",
+                "Click the \"Find a Training Manager\" button.",
+                "Add criteria to the Search fields.",
+                "Click the \"Search\" button.",
+                "From the Search results, click the checkbox for each desired TM.",
+                "Click the \"Add Selected Users\" button.",
+                "See the success message."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "A tutorial is also available and is located here."
+            },
+            {
+              "type": "paragraph",
+              "text": "To remove TMs:"
+            },
+            {
+              "type": "note",
+              "text": "Note: You may only remove TMs that you added."
+            },
+            {
+              "type": "steps",
+              "items": [
+                "In MarineNet, click on the drop down at the top right.",
+                "Click View/Modify Your Info from the username menu on the page header.",
+                "Open the Training Groups tab to view your TMs.",
+                "Click the checkbox for each TM to be removed.",
+                "Click the \"Remove Selected Users\" button."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "For more info, see Groups."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-update-my-email-address",
+          "question": "How do I update my email address?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To update your email address, follow the steps below:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Access the Student Dashboard.",
+                "Click View/Modify Your Info in the username menu on the page header.",
+                "Open the Edit Preferred Contact Info tab.",
+                "Update the email address on this tab.",
+                "Click Save/Acknowledge."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regions",
+      "title": "REGIONS",
+      "faqs": [
+        {
+          "id": "how-do-i-change-my-pme-region",
+          "question": "How do I change my PME Region?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To change your PME Region, access the Student Dashboard, and then select the View/Modify Your Info from the username menu on the page header. Open the Edit Preferred Contact Info tab and select from the Region field on the bottom of the tab. To disassociate from all regions, click the blank line in the drop down. Fill in the dynamically displayed Request Transfer fields and click the Save/Acknowledge button. The region transfer is effective when your request is approved. See Requests for more information."
+            },
+            {
+              "type": "note",
+              "text": "Note: You may also update your region when enrolling a course that requires a region."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "requests",
+      "title": "REQUESTS",
+      "faqs": [
+        {
+          "id": "how-do-i-request-an-extension-to-complete-a-course",
+          "question": "How do I request an Extension to complete a course?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To request an extension to complete a course, you must submit an Extension Request."
+            },
+            {
+              "type": "paragraph",
+              "text": "To submit an Extension Request, follow these steps:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Click the More menu for a My Active Courses listing.",
+                "Select the \"Issue Request\" option, if present.",
+                "From the Student Course Request form, select \"Extension\" as the Request Type.",
+                "Complete the Extension Request form.",
+                "Click the \"Submit\" button.",
+                "Use My Requests to track the request.",
+                "If the request is approved, the new Due Date displays in My Active Courses."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "as-a-training-manager-how-do-i-add-different-rucs-to-my-account",
+          "question": "As a Training Manager, how do I add different RUCs to my account?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Access the administrative side of your MarineNet account. Click “Manage Accounts” in the Accounts tile."
+            },
+            {
+              "type": "paragraph",
+              "text": "On the “Manage Accounts” page, search for your MarineNet account. You can search for your account by MarineNet username, EDIPI, First/Last name, or by the email tied to your MarineNet account. Once you have your account pulled up, click the pencil icon under actions."
+            },
+            {
+              "type": "paragraph",
+              "text": "Scroll down to the “Primary Information” section. You can change the RUC listed in this section and save the changes by scrolling down to the bottom of the page and clicking the “Save” button. If you need to add more RUCs to your profile, click the “Edit Unit Code(s)” link."
+            },
+            {
+              "type": "paragraph",
+              "text": "Enter in the RUC followed by the MCC in the “Unit Code” box and click the disk icon under actions. Clicking the disk icon will save the RUC to your MarineNet profile and auto fill the Unit Name box if there is a name for the RUC. A success message will be displayed at the top of the page if the code is successfully saved. You can continue to add more RUCs on this page if necessary."
+            },
+            {
+              "type": "paragraph",
+              "text": ".All RUCs that are added to your account will be displayed in your “Primary Information” section."
+            }
+          ]
+        },
+        {
+          "id": "what-if-i-do-not-meet-all-of-the-requirements-to-be-a-training-manager-tm-but-i-still-need-the-role",
+          "question": "What if I do not meet all of the requirements to be a Training Manager (TM), but I still need the role?",
+          "answerBlocks": [
+            {
+              "type": "note",
+              "text": "Note: To be a Training Manager (TM) you must be a E-5, GS-05, NF-03, WG-09, WL-01, WS-01 or higher, and your billet must require you to track training."
+            },
+            {
+              "type": "paragraph",
+              "text": "If you do not meet the requirements to be a TM, but still need the role, submit a Help Desk Support Request. Select the \"Training Manager Request\" option from the Support Category field drop down. Include the following info for each proposed TM and Approving Officer (AO):"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Username",
+                "Grade/Rank",
+                "Phone",
+                "Unit Name",
+                "RCU",
+                "MCC",
+                "Email"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-become-a-training-manager",
+          "question": "How do I become a Training Manager?",
+          "answerBlocks": [
+            {
+              "type": "note",
+              "text": "Note: The Training Manager (TM) request is available only if you meet TM Role criteria."
+            },
+            {
+              "type": "paragraph",
+              "text": "To become a Training Manager (TM), you must be approved for the role via a TM Role request."
+            },
+            {
+              "type": "paragraph",
+              "text": "To submit this request, follow the steps below:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Access Student Dashboard.",
+                "Click the Request TM Role link from the username menu on the page header.",
+                "Complete & submit the form.",
+                "Use My Requests to track the request.",
+                "With request approval, your username menu displays the date the role expires."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "See also How do I know who my Approving Officer (AO) is? and Requests."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-know-who-my-approving-officer-ao-is",
+          "question": "How do I know who my Approving Officer (AO) is?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The Approving Officer (AO) for your Training Manager (TM) Role request must be a O-3, GS-10, NF-04, WG-12, WL-06, WS-08, or higher. They do not have to be a member of your unit. The request form will let you search for an individual who meets those requirements."
+            },
+            {
+              "type": "paragraph",
+              "text": "If you decide to extend your TM Role, your TM Extension Request will be pre-populated with your previously selected AO. For details, see Requests."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-request-an-extension-for-my-training-manager-account",
+          "question": "How do I request an extension for my Training Manager account?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To request an extension for your Training Manager account, click the Request Extension link that appears in your Admin View/ username menu within 90 days of account expiration. Complete and submit the resulting form. The extension is effective when your request is approved. See Requests for more information."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-request-equivalency-credit",
+          "question": "How do I request Equivalency credit?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "You can avoid taking a MarineNet course by getting credit for a course you took previously. This is called Equivalency credit. Only some courses allow Equivalencies."
+            },
+            {
+              "type": "note",
+              "text": "Note: To see if your course has an Equivalency, look at the course's Course Details Page."
+            },
+            {
+              "type": "paragraph",
+              "text": "To get Equivalency credit, you must submit an Equivalency Request, which must be approved. Enroll in the course requiring the Equivalency before submitting your request."
+            },
+            {
+              "type": "paragraph",
+              "text": "To submit an Equivalency Request, follow these steps:"
+            },
+            {
+              "type": "steps",
+              "items": [
+                "Click the More menu for the course in My Active Courses.",
+                "Select the \"Issue Request\" option, if present.",
+                "From the Student Course Request form, select \"Equivalency\" as the Request Type.",
+                "Complete the Equivalency Request form."
+              ]
+            },
+            {
+              "type": "steps",
+              "items": [
+                "For an Internal Equivalency, choose a course from the Select Course drop down, and then click the \"Claim Equivalency\" button. You will see a success message",
+                "For an External Equivalency, complete the Equivalency Course Info form, and click the \"Submit\" button. Use My Requests to track the request. If the request is approved, the course you were enrolled in is added to My Completed Courses, with an Equivalency status."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "For more info, see Requests."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "title": "TESTING",
+      "faqs": [
+        {
+          "id": "how-do-i-get-the-take-test-icon-back-if-i-failed-a-test",
+          "question": "How do I get the \"Take Test\" icon back if I failed a test?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To get the \"Take Test\" icon back, users must be enrolled in the course and study the course material again. If you have failed a course, then MarineNet will automatically disenroll you."
+            },
+            {
+              "type": "paragraph",
+              "text": "In some cases, users may have to wait a mandatory 24 hour (1 day) lock out period before being able to re-enroll in a course. Similarly, users who disenroll themselves from a course while in a remediation period will need to wait a 24 hour (1 day) lock out period before being able to re-enroll."
+            },
+            {
+              "type": "paragraph",
+              "text": "For some courses, re-enrollment is automatic. For other courses, you must re-enroll yourself or a privileged user can do it for you. Once you are re-enrolled and complete the course material, the \"Take Test\" icon will redisplay."
+            }
+          ]
+        },
+        {
+          "id": "how-do-i-retake-a-test-after-being-placed-in-remediation",
+          "question": "How do I retake a test after being placed in remediation?",
+          "answerBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To retake a test after being placed in remediation, you must wait until your remediation ends."
+            },
+            {
+              "type": "paragraph",
+              "text": "Important Note: Do not disenroll from a course you are in remediation for."
+            },
+            {
+              "type": "paragraph",
+              "text": "When you are in remediation, your My Active Courses status for the course changes to \"Remediation.\" When the remediation period ends, your course status returns to \"Enrolled\", and you can take the course again."
+            },
+            {
+              "type": "paragraph",
+              "text": "For more info about Remediation, see Testing."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
